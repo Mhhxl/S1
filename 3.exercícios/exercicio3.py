@@ -23,5 +23,8 @@ else:
 
 
 #SEGUNDA FORMA DE FAZER UM NUMERO MAIOR DOQUE OUTRO
-menor= min({primeiro_numero, segundo_numero})
-maior= max({primeiro_numero, segundo_numero})
+# menor= min({primeiro_numero, segundo_numero})
+# maior= max({primeiro_numero, segundo_numero})
+ 
+# print(f"O maior numero é: {maior}")
+# print(f"O menor numero é: {menor}")
