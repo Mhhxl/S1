@@ -4,6 +4,8 @@ nome=str(input("Digite o seu nome: "))
 idade=int(input("Digite a sua idade: "))
 altura=float(input("Digite a sua altura: "))
 #O comando (input) armazena valores somente em texto, mas qnd especificamos o tipo de dados que quero "str,int e float" o comando passa a armazenar valores numericos tambem
+#O comando (int) serve para armazenar valores numericos inteiros
+#O comando (float) serve para armazenar valores numericos decimais
 if idade < 10:
     print("Acesso Negado!")
 elif idade <18:
