@@ -1,5 +1,5 @@
 import os
-os.system('cls')
+os.system('clear')
 
 while True:
     nota1=int(input("Digite a primeira nota: "))
@@ -9,7 +9,9 @@ while True:
         print("Repetindo...")
     else:
         break
+média= (nota1+nota2)/2
+
 #saida
 print(f"Sua primeira nota é: {nota1}")
 print(f"Sua segunda nota é: {nota2}")
-    
+print(f"Sua média é: {média}")
