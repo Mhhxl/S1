@@ -2,22 +2,23 @@ import os
 os.system('cls || clear')
 
 #pedindo ao usuario suas informações de peso e alura
+print("BEM VINDO, AQUI VOCÊ VAI CALCULAR O SEU IMC")
 peso = float(input('Digite o seu peso: '))
 altura = float(input('Digite a sua altura: '))
 #função para calcular o IMC
 def calcular_imc(peso, altura):
-    imc = peso / altura ** 2
+    imc = peso / altura** 2
     return imc
                   
-if calcular_imc (peso, altura) < 18.5:
+if calcular_imc (peso, altura) <= 18.5:
     print('Abaixo do peso')
-elif calcular_imc (peso, altura) < 24.9:
+elif calcular_imc (peso, altura) <= 24.9:
     print('Peso normal')
-elif calcular_imc (peso, altura) < 29.9:
+elif calcular_imc (peso, altura) <= 29.9:
     print('Sobrepeso')
-elif calcular_imc (peso, altura) < 34.9:
+elif calcular_imc (peso, altura) <= 34.9:
     print('Obesidade grau 1')
-elif calcular_imc (peso, altura) < 39.9:
+elif calcular_imc (peso, altura) <= 39.9:
     print('Obesidade grau 2')
 else:
     print('Obesidade grau 3')
